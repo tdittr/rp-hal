@@ -2,3 +2,5 @@
 
 mod xosc;
 pub use xosc::XOsc;
+
+pub mod generators;

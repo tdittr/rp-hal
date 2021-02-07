@@ -60,7 +60,7 @@ pub enum Error {
 ///
 /// // Do things with the clock source
 /// ```
-pub struct XOsc<S: State, R: Rate> {
+pub struct XOsc<S: State, R> {
     inner: pac::XOSC,
     rate: R,
     state: PhantomData<S>,
